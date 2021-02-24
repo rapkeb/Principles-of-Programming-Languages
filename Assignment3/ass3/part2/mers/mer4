@@ -1,0 +1,5 @@
+graph TD
+	Program_1[Program] -->|exps| Exps_1[:]
+	Exps_1 --> NumExp_1["NumExp(1)"]
+	Exps_1 --> boolean_1["BoolExp(#t)"]
+	Exps_1 --> string_1["StrExp(hello)"]
